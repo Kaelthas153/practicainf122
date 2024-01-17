@@ -1,0 +1,26 @@
+.button-box{
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+button{
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+  
+}
+.start
+{
+  background-color: green;
+}
+.stop
+{
+  background-color: red;
+}
+.reset
+{
+  background-color: yellow;
+}
