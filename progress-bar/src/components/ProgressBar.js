@@ -1,4 +1,3 @@
-// ProgressBar.js
 
 import React from 'react';
 import '../styles/ProgressBar.css';  // Asegúrate de importar el archivo CSS
