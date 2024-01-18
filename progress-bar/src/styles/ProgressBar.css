@@ -1,0 +1,27 @@
+/* ProgressBar.css */
+
+.containerStyles {
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 20px auto;
+    background-color: #C6C4C6;
+  }
+  
+  .barStyles {
+    height: 20px;
+    border-radius: 20px;
+    background-color: #4CAF50; /* Verde por defecto */
+    transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .percentageStyles {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+  }
+  
